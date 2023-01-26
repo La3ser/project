@@ -25,18 +25,18 @@
                 <i class="fa-solid fa-bars"></i>
 
                 <ul>
-                    <li class="active">home</li>
-                    <li><a href="#">about us</a></li>
-                    <li><a href="#">products</a></li>
-                    <li><a href="#">companes</a></li>
-                    <li><a href="#">contact us</a></li>
+                    <li class="active"><a href="#landing">HOME</a></li>
+                    <li><a href="#about">about us</a></li>
+                    <li><a href="#products">products</a></li>
+                    <li><a href="#companes">companes</a></li>
+                    <li><a href="#contact">contact us</a></li>
                 </ul>
             </nav>
 
         </div>
     </header>
     <!-- landing -->
-    <div class="landing">
+    <div class="landing" id="landing">
         <div class="overlay"></div>
         <div class="land-text">
             <p>prodects made by egyption
@@ -47,7 +47,7 @@
     </div>
     <!-- End landing -->
     <!-- visiov -->
-    <div class="vision">
+    <div class="vision" id="about">
         <div class="main-head">
             <i class="fa-solid fa-flag-checkered"></i>
             <h2>MISSION</h2>
@@ -72,31 +72,34 @@
         <div class="container">
             <h2>search for...</h2>
             <form action="">
-                <div class="product">
+                <div class="box">
                     <i class="fa-solid fa-gears"></i>
                     <p>product</p>
-                    <input type="text">
-                    <i class="fas fa-search"></i>
+                    <div class="input-text"><input type="text">
+                        <div> <i class="fas fa-search"></i></div>
+                    </div>
                 </div>
 
-                <div class="sector">
+                <div class="box">
                     <i class="fas fa-search"></i>
                     <p>sector</p>
-                    <input type="text">
-                    <i class="fas fa-search"></i>
+                    <div class="input-text"><input type="text">
+                        <div> <i class="fas fa-search"></i></div>
+                    </div>
                 </div>
-                <div class="company">
+                <div class="box">
                     <i class="fa-solid fa-laptop"></i>
                     <p>company</p>
-                    <input type="text">
-                    <i class="fas fa-search"></i>
+                    <div class="input-text"><input type="text">
+                        <div> <i class="fas fa-search"></i></div>
+                    </div>
                 </div>
 
             </form>
         </div>
     </div>
     <!-- end search -->
-    <div class="featured">
+    <div class="featured" id="products">
         <div class="head-text">
             <h2>featured products</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi numquam voluptatem sint tempora totam
@@ -173,7 +176,7 @@
             </div>
         </div>
     </div>
-    <div class="featured-companies">
+    <div class="featured-companies" id="companes">
         <div class="container">
             <div class="head-text">
                 <h2>featured companes</h2>
@@ -200,7 +203,7 @@
         </div>
     </div>
 
-    <footer>
+    <footer id="contact">
         <div class="container">
             <div class="footer-head">
                 <h2>E-CATALOUGE</h2>
